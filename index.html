@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Min första webbsida</title>
+        <style>
+            p{
+                color:red !important;
+                color:blue;
+                
+            }
+            h1{
+                font-size: 24px;
+                color: chartreuse;
+            }
+            .flex-container{
+                display: flex;
+                align-items: center;
+                justify-content:space-evenly;
+            }
+            li{color:blue}
+            .first-class{color:red;}
+            li[draggable]{color: green;}
+            #first-id{color:orange}
+
+            .a-class{
+                color: blue;
+            }
+            #an-id{
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="a-class" id="an-id">Min webbsida</h1>
+        <p>Välkommen till min hemsida</p>
+        <div class="flex-container">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+        </div>
+        <ol>
+            <li id="first-id" class="first-class" draggable="true">First</li>
+            <li>Second</li>
+            <li>Third</li>
+            <li>Fourth</li>
+        </ol>
+
+    </body>
+</html>
